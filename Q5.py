@@ -1,10 +1,7 @@
-# in 100 nos list print the maximum no
-import random as rn
-# inputNo=int(input("Enter no:"))
-randomNumbersList=[]
-for i in range(100):
-    randomNumber=rn.randint(1,101)
-    randomNumbersList.append(randomNumber)
-print("randomNumbersList =",randomNumbersList)
-min=max(randomNumbersList)
-print(f"Minimum no in the list is {min}")
+space=" "
+space1=6
+a=[2,3,4,5,4,3,2]
+print((space*(space1+1)),1)
+for j in a:
+    print((space*(space1-j)),j,(space*2*j),j)
+print((space*(space1+1)),1)  

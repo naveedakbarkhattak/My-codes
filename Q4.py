@@ -1,10 +1,10 @@
-# in 100 nos list print the minimum
-import random as rn
-# inputNo=int(input("Enter no:"))
-randomNumbersList=[]
-for i in range(100):
-    randomNumber=rn.randint(1,101)
-    randomNumbersList.append(randomNumber)
-print("randomNumbersList =",randomNumbersList)
-min=min(randomNumbersList)
-print(f"Minimum no in the list is {min}")
+a=[1,2,3,4,5,6,7,8]
+for i in range(8):
+    a.pop()
+    print()
+    for j in a:
+        print(j,end=" ")
+
+        
+
+       

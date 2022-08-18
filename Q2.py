@@ -1,14 +1,13 @@
-# Q no 2 100 random no list then list of greater that 40 in that list
-import random as rn
-# inputNo=int(input("Enter no:"))
-randomNumbersList=[]
-for i in range(100):
-    randomNumber=rn.randint(1,101)
-    randomNumbersList.append(randomNumber)
-print("randomNumbersList =",randomNumbersList)
-greaterThan40=[]
-for j in randomNumbersList:
-    if j>=40:
-        greaterThan40.append(j)
-        continue
-print("greaterThan40 =",greaterThan40)
+word="Statement And Count Every Character Occurrence"
+alphabets = sum(not chr.isspace() for chr in word)
+word=word.lower()
+s=word.count("a")
+t=word.count("e")
+a=word.count("i")
+z=word.count("o")
+u=word.count("u")
+vowels=s+t+a+z+u
+print(f"vowels count = {vowels}")
+consonants=alphabets-vowels
+print(f'The consonants are : {consonants}')
+
