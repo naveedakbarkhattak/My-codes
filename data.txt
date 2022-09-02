@@ -1,0 +1,9 @@
+Quiz for Mr. ali
+Q1 = what is apple ?
+option A= fruit
+option B= vegitable
+option C= drink
+option D= none
+
+
+
